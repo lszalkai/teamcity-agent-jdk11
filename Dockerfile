@@ -7,7 +7,7 @@ RUN chmod +x /usr/local/bin/docker-compose
 
 RUN mkdir /opt/java/jdk-11
 
-RUN curl -fsSL https://github.com/AdoptOpenJDK/openjdk11-upstream-binaries/releases/download/jdk-11.0.8%2B10/OpenJDK11U-jdk_x64_linux_11.0.8_10.tar.gz | tar -xvzf - -C /opt/java/jdk-11 --strip-components=1 
+RUN curl -fsSL https://github.com/AdoptOpenJDK/openjdk11-upstream-binaries/releases/download/jdk-11.0.9.1%2B1/OpenJDK11U-jdk_x64_linux_11.0.9.1_1.tar.gz | tar -xvzf - -C /opt/java/jdk-11 --strip-components=1 
 
 ENV JDK_11_64 /opt/java/jdk-11
 
